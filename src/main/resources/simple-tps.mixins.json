@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ethanjones.simpletps.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ServerMixin",
+    "ServerWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

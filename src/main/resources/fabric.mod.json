@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "simple-tps",
+  "version": "${version}",
+
+  "name": "Simple TPS",
+  "description": "Adds /tps command",
+  "authors": [
+    "ictrobot"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ictrobot",
+    "sources": "https://github.com/ictrobot/simple-tps"
+  },
+
+  "license": "MIT",
+  "icon": "assets/simple-tps/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.ethanjones.simpletps.SimpleTPS"
+    ]
+  },
+  "mixins": [
+    "simple-tps.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
