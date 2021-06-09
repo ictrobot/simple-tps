@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 class TPSHistory {
   private static final int MAX_TPS = 20;
-  private static final int WINDOW_SIZE = MAX_TPS * 10;
+  private static final int WINDOW_SIZE = MAX_TPS * 5;
 
   private final LinkedList<Double> msHistory = new LinkedList<>();
   private final LinkedList<Double> tpsHistory = new LinkedList<>();
